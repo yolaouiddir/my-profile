@@ -1,0 +1,82 @@
+/* Colors and Fonts */
+
+body{background-color: #3339FF;
+	color: #040606;
+	font-family: 'Indie Flower', cursive;
+	size: 15px}
+	
+
+h1{color:#fff836;
+	font-size: 45px;
+	font-family: 'Odibee Sans', cursive;
+	font-weight: 900}
+ 
+h2{color: #fff836;
+	size: 15px;
+	font-weight: lighter;
+	font-family: 'Oswald', sans-serif}
+
+a{text-decoration: none}
+
+a:hover {text-decoration: underline} 
+
+.text-justify{text-align: justify;
+				text-align:center;}
+
+.btn{background-color: #fff836;
+		border-radius: 10px;
+		color:#63015b;
+		height: 200px;
+		width: 100px;
+		padding: 10px 20px;
+		margin-top: 30px}
+
+.wagon {background-color: #fff836;
+		border-radius: 10px;
+		color:#63015b;
+		height: 200px;
+		width: 100px;
+		padding: 10px 20px;
+		margin-top: 30px}
+
+/*constum design with class (99 of your design) */
+
+
+.container {
+	width: 1340px;}
+
+@media (max-width: 1200px){
+	.container {width: 1100px;}}
+
+
+@media (max-width: 1000px){
+	.container {width: 900px;}}
+
+
+@media (max-width: 600px){
+	.container {width: 500px;}}
+
+@media (max-width: 500px){
+	.container {width: 400px;}}
+
+
+@media (max-width: 400px){
+	.container {width: 300px;}}
+
+
+.card-white {text-align: center }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px}
+
+.list-inline li{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	font-size: 30px}
+
+.list-inline a :hover{background-color: yellow}
+
+.rap{text-align: left;
+	list-style: }
